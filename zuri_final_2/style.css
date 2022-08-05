@@ -1,0 +1,123 @@
+.home, .body{
+    height: 100%;
+}
+.body{
+    margin-top: 200px;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.impact{
+    background-image: url('./images/463-4639139_world-map-pink-world-transparent-line-png-png.png');
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: contain;
+}
+.li{
+    list-style: none !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    left: auto !important;
+    right: 0 !important;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0px 100px !important;
+    z-index: 100;
+}
+nav img{
+    margin-right: auto;
+}
+.nav-list{
+    margin-left: auto;
+}
+ul a{
+    padding: 20px 10px;
+    margin:  0 20px 0 20px;
+    width: max-content;
+}
+ul{
+    align-items: baseline;
+}
+.cards > div{
+    height: 100% !important;
+}
+.body-text h1{
+    font-size: 40px;
+}
+.current{
+    border-bottom: 2px solid red;
+}
+.top-btn{
+    padding: 7px 26px !important;
+    border-bottom-right-radius: 10px;
+    align-items: baseline;
+}
+span{
+    color: red;
+}
+
+.thick2_1{
+    position: relative;
+}
+
+
+.types{
+    width: max-content;
+    padding: 10px 30px;
+    box-shadow: 0 8px 30px hsla(0,0%,48%,.16)!important;
+    margin: 10px;
+}
+.types:hover{
+    transform: translateY(-10px);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer1, .footer2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+/* .body-text{
+   padding-top: 150px;
+} */
+
+.hire{
+    background-color: rgb(255, 248, 229);
+    padding-bottom: 80px;
+    z-index: -1;
+}
+.hires{
+    border-bottom-right-radius: 10px;
+    width: 30%;
+    position: relative;
+}
+.hires:hover{
+    color: white;
+    background-color: black !important;
+}
+
+
+@media screen and (max-width:987px) {
+    .impact{
+        text-align: center !important;
+    }
+    .section2{
+        transform: scale(.7);
+    }
+    .hires{
+        width: 49%;
+        margin-top: -5px;
+    }
+    .last-hire-item{
+        width: 100%;
+    }
+}

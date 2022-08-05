@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+    font-size: 16px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 100vh;
+}
+.header-img{
+    margin: 70px auto 100px !important;
+}
+.header-bold{
+    padding-bottom: 40px;
+}
+.header-text{
+    padding: 10px 200px;
+    margin-bottom: 70px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+.btn{
+    margin: 10px ;
+    padding: 10px 20px !important;
+}
+.btn-1{
+    background-color: red;
+    color: white;
+    border-radius: 0px !important;
+}
+.btn-1:hover{
+    background-color: white;
+    color: red;
+}
+.btn-2{
+    background-color:white ;
+    color: red;
+    border-radius: 0px !important;
+    border: 1px solid red;
+}
+.btn-2:hover{
+    background-color: red;
+    color: white;
+}
+
+.body{
+    margin-top: 100px;
+    height: 100vh;
+}
+.card-body{
+    background-color: #fffafa;
+}
+small{
+    color: red;
+}
+.body-text{
+    padding: 5px 100px 5px 100px;
+    line-height: 6vh;
+}
+
+.cards{
+    padding: 60px 100px 30px;
+}
+.left-img, .right-img{
+    position: absolute;
+    z-index: -1;
+    transform: scale(.3);
+}
+.left-img{
+    top: 47vh;
+    left: -40%;
+}
+.right-img{
+    top: 47vh;
+    right: -34.5%;
+}
+
+
+.footer{
+    height: 80vh;
+}
+.footer .row{
+    padding-bottom: 80px;
+    border-bottom: 1px solid black;
+}
+.footer .socials img{
+    transform: scale(.3);
+}
+
+ul{
+    padding: 0px !important;
+}
+.icons{
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}

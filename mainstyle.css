@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 .header{
-    height: 100vh;
+    height: 120vh;
     background-image: url(images/hero-bg.svg);
     background-size: cover;
     
@@ -35,7 +35,7 @@ a{
     font-weight: 400;
     font-size: 1.1rem;
     padding-top: 1.5rem;
-    margin-bottom: 4.5rem;
+    margin-bottom: 5rem;
 }
 
 a {
@@ -47,17 +47,15 @@ a:hover{
     color: rgb(255, 100, 100);
 }
 .btn{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     font-size: 1.1rem;
-    padding: 10px 30px !important;
-    
+    padding: 11px 32px !important;
 }
 .btn-1{
-    background-color: rgb(252, 50, 50);
+    background-color: rgb(226, 49, 49);
     color: white;
     border-radius: 0px !important;
     margin-right: 10px;
-    padding: 11px 32px !important;
     margin-left: -5px;
 }
 .btn-1:hover{
@@ -75,21 +73,26 @@ a:hover{
     color: white;
 }
 
-.body{
-    margin-top: 100px;
-    height: 100vh;
+.head{
+    margin-top: 5rem;
 }
 .card-body{
     background-color: #fffafa;
 }
 small{
     color: red;
+    font-size: 1rem;
 }
 .body-text{
     padding: 5px 100px 5px 100px;
     line-height: 6vh;
 }
-
+.head-text{
+    color: rgb(97, 87, 87);
+    font-size: 1.7rem;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
 .cards{
     padding: 60px 100px 30px;
 }
@@ -99,7 +102,7 @@ small{
     transform: scale(.3);
 }
 .left-img{
-    top: 47vh;
+    top: 64vh;
     left: -40%;
 }
 .right-img{
